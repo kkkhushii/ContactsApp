@@ -1,0 +1,42 @@
+:root{
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.Main-Container{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  
+}
+.cards{
+  box-shadow:0 .5rem 1rem #0000000d;
+  border-radius: 0.3rem;
+  border: 0px none;
+  background-color: #fff;
+  margin-bottom: 30px;
+  width:1300px;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+}
+.cardBody{
+  flex:1 1 auto;
+
+}
+.cardpart{
+  overflow: hidden;
+  width: 100%;
+  height: 700px;
+
+}
